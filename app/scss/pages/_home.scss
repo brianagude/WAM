@@ -24,7 +24,7 @@ header {
 
 h1 {
 	font-family: $font-display;
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 1.5;
 
 	@include bp(xs) {
@@ -33,7 +33,7 @@ h1 {
 }
 
 p {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1;
 }
 
