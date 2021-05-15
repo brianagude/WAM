@@ -1,31 +1,55 @@
 <!DOCTYPE html>
-  <head>
-    <title>Gulp Template</title>
 
-    <!-- default meta tags -->
-    <meta charset="UTF-8">
-    <meta name="description" content="Base boilerplate for creating static websites using gulp">
-    <meta name="keywords" content="gulp, boilerplate">
-    <meta name="author" content="briana gude">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>Whack A Mole!</title>
 
-    <!-- twitter meta tags -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@brianagude" />
-    <meta name="twitter:creator" content="@brianagude" />
-    <meta property="og:url" content="https://brianagude.com/" />
-    <meta property="og:title" content="Gulp Template" />
-    <meta property="og:description" content="Base boilerplate for creating static websites using gulp" />
-    <meta property="og:image" content="./img/logo.svg" />
+  <!-- styles etc. -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+</head>
 
-    <!-- styles etc. -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
-  </head>
+<body class='homepage'>
+  <header>
+    <div class='container'>
+      <h1>Whack-a-mole!</h1>
 
-  <body class='homepage'>
-   <h2>hello briana</h2>
+      <div class='controls-wrapper'>
+        <button onClick="startGame()">Start!</button>
+        <div class='score-wrapper'>
+          <p>Score</p>
+          <p class="score">0</p>
+        </div>
+      </div>
+      
+    </div>
+  </header>
 
-    <script src='./js/global.js'></script>
-  </body>
+  <div class="game">
+    <div class="hole hole-1">
+      <div class="mole"><img src='./imgs/mojo.png'></div>
+    </div>
+    <div class="hole hole-2">
+      <div class="mole"><img src='./imgs/him.png'></div>
+    </div>
+    <div class="hole hole-3">
+      <div class="mole"><img src='./imgs/princess.png'></div>
+    </div>
+    <div class="hole hole-4">
+      <div class="mole"><img src='./imgs/buzz.png'></div>
+    </div>
+    <div class="hole hole-5">
+      <div class="mole"><img src='./imgs/rowdy.png'></div>
+    </div>
+    <div class="hole hole-6">
+      <div class="mole"><img src='./imgs/ace.png'></div>
+    </div>
+  </div>
+
+  <script src='./js/global.js'></script>
+</body>
+
 </html>
