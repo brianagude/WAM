@@ -1,14 +1,14 @@
-# gulp-template
-template for gulp projects
 
 <b><i>!!! SETUP</i></b>
 1. clone repo
-2. run `npm install` in terminal
-3. run `gulp` in terminal
+2. if you haven't already, install npm ==> https://www.npmjs.com/get-npm
+3. install gulp by running `npm install --save gulp-install`
+4. open the project in your terminal
+5. run `npm install` in terminal
+6. run `gulp` in terminal
 
-<b>This gulpfile will:</b>
-1. turn your sass to css, and minify that
-2. put all js files into 1 file and minify that
-3. open your index file in your browser & restart when you edit your scss, and html files
-
-Ya welcome!
+<b>Gameplay:</b>
+1. press play
+2. game will scroll so that mole holes are in view, and "moles" will begin popping up
+3. you have 10s to whack as many moles as you can as they pop up
+4. highest recorded score will recieve a virtual hug (:
