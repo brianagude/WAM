@@ -19,12 +19,21 @@
 </head>
 
 <body class='homepage'>
+  <div class='timer-wrapper'>
+    <p class='timer'>10</p>
+  </div>
   <header>
     <div class='container'>
       <h1>Whack-a-mole!</h1>
 
+      <div class='difficulty-wrapper'>
+        <button onClick="setDifficulty(1000, 1000)">Easy</button>
+        <button onClick="setDifficulty(500, 1200)" class='selected'>Normal</button>
+        <button onClick="setDifficulty(200, 800)">hard</button>
+      </div>
+
       <div class='controls-wrapper'>
-        <button onClick="startGame()">Start!</button>
+        <button onClick="startGame()" class='start-btn'>Start!</button>
         <div class='score-wrapper'>
           <p>Score</p>
           <p class="score">0</p>
@@ -55,6 +64,9 @@
     </div>
   </div>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
   <script src='./js/global.js'></script>
 </body>
 
