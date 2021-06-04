@@ -13,6 +13,7 @@ let
   minimum = 500,
   maximum = 1200;
 
+  
 function setDifficulty(min, max){
   minimum = min
   maximum = max
